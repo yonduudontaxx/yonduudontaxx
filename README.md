@@ -24,18 +24,18 @@ Mock payment gateway and test harness: authorize/capture/refund state machine, i
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yonduudontaxx&show_icons=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats&theme=github_dark&hide_border=true" />
-    <img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=yonduudontaxx&show_icons=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats&theme=default&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yonduudontaxx/yonduudontaxx/output/stats-dark.svg" />
+    <img height="170" alt="GitHub stats" src="https://raw.githubusercontent.com/yonduudontaxx/yonduudontaxx/output/stats.svg" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yonduudontaxx&layout=donut&langs_count=5&theme=github_dark&hide_border=true" />
-    <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yonduudontaxx&layout=donut&langs_count=5&theme=default&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yonduudontaxx/yonduudontaxx/output/langs-dark.svg" />
+    <img height="170" alt="Top languages" src="https://raw.githubusercontent.com/yonduudontaxx/yonduudontaxx/output/langs.svg" />
   </picture>
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yonduudontaxx&theme=github-dark-blue&hide_border=true" />
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=yonduudontaxx&hide_border=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yonduudontaxx/yonduudontaxx/output/streak-dark.svg" />
+  <img alt="Contribution streak" src="https://raw.githubusercontent.com/yonduudontaxx/yonduudontaxx/output/streak.svg" />
 </picture>
 
 <picture>

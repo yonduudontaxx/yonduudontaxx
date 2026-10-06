@@ -18,7 +18,7 @@ Mock payment gateway and test harness: authorize/capture/refund state machine, i
 
 ### 🧰 Stack
 
-`TypeScript` `Playwright` `Jest` `Vitest` `Fastify` `PostgreSQL` `Docker` `GitHub Actions` `Elixir`
+`TypeScript` `Python` `Java` `Playwright` `Jest` `Vitest` `Fastify` `PostgreSQL` `Docker` `GitHub Actions` `Elixir`
 
 ### 📫 Contact
 

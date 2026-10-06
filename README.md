@@ -20,6 +20,29 @@ Mock payment gateway and test harness: authorize/capture/refund state machine, i
 
 `TypeScript` `Python` `Java` `Playwright` `Jest` `Vitest` `Fastify` `PostgreSQL` `Docker` `GitHub Actions` `Elixir`
 
+### 📊 GitHub Activity
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yonduudontaxx&show_icons=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats&theme=github_dark&hide_border=true" />
+    <img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=yonduudontaxx&show_icons=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats&theme=default&hide_border=true" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yonduudontaxx&layout=donut&langs_count=5&theme=github_dark&hide_border=true" />
+    <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yonduudontaxx&layout=donut&langs_count=5&theme=default&hide_border=true" />
+  </picture>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yonduudontaxx&theme=github-dark-blue&hide_border=true" />
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=yonduudontaxx&hide_border=true" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yonduudontaxx/yonduudontaxx/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="Contribution graph" src="https://raw.githubusercontent.com/yonduudontaxx/yonduudontaxx/output/github-contribution-grid-snake.svg" />
+</picture>
+
 ### 📫 Contact
 
 [LinkedIn](https://www.linkedin.com/in/joshua-m-90b6362b6)

@@ -1,4 +1,4 @@
-name: Contribution graph
+name: Profile charts
 
 on:
   schedule:
@@ -18,12 +18,40 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Restore last good charts
+        run: |
+          mkdir -p dist
+          git clone --depth 1 --branch output "https://github.com/${{ github.repository }}.git" prev || true
+          cp prev/*.svg dist/ 2>/dev/null || true
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Fetch stat cards
+        env:
+          U: ${{ github.repository_owner }}
+        run: |
+          STATS="https://github-readme-stats.vercel.app/api?username=$U&show_icons=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats&hide_border=true"
+          LANGS="https://github-readme-stats.vercel.app/api/top-langs/?username=$U&layout=donut&langs_count=5&hide_border=true"
+          STREAK="https://streak-stats.demolab.com?user=$U&hide_border=true"
+          fetch() {
+            if curl -sf -m 30 -o tmp.svg "$1" && grep -q '<svg' tmp.svg && ! grep -qiE 'something went wrong|rate limit|error' tmp.svg; then
+              mv tmp.svg "dist/$2"; echo "updated $2"
+            else
+              echo "kept previous $2"
+            fi
+          }
+          fetch "$STATS&theme=default" stats.svg
+          fetch "$STATS&theme=github_dark" stats-dark.svg
+          fetch "$LANGS&theme=default" langs.svg
+          fetch "$LANGS&theme=github_dark" langs-dark.svg
+          fetch "$STREAK" streak.svg
+          fetch "$STREAK&theme=github-dark-blue" streak-dark.svg
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

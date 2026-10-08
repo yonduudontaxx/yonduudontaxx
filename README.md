@@ -10,7 +10,7 @@ I build test automation and quality tooling across web, API and backend systems:
 Self-hosted platform that ingests Jest, Vitest, Playwright and JUnit results to surface flaky tests, failure trends and environment stability. · [Live reports](https://yonduudontaxx.github.io/test-failure-intelligence/)
 
 **[Payments Quality Platform](https://github.com/yonduudontaxx/payments-quality-platform)**<br>
-Mock payment gateway and test harness: authorize/capture/refund state machine, idempotency, webhook delivery simulation and fault injection.
+Mock payment gateway and test harness: authorize/capture/refund state machine, idempotency, webhook delivery simulation and fault injection. · [Live report](https://yonduudontaxx.github.io/payments-quality-platform/)
 
 ### 🛠️ Also building
 

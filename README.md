@@ -2,7 +2,7 @@
 
 **Quality Engineer** · Tallinn, Estonia 🇪🇪
 
-I build test platforms that make reliability visible: flaky-test detection, failure trends, and payment-flow testing that catches what breaks before production does.
+I build test automation and quality tooling across web, API and backend systems: end-to-end suites, CI pipelines, flaky-test detection and failure analytics that make reliability visible and catch what breaks before production does.
 
 ### 🔍 Featured
 

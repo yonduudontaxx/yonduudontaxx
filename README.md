@@ -4,13 +4,21 @@
 
 I test web, API and backend systems for both quality and security: end-to-end and API test suites, security checks built into CI, and failure analytics that catch what breaks — or what can be abused — before it reaches production. Most of my work is in fintech, payments and iGaming.
 
+### 🎯 What I do
+
+- **Quality engineering**: end-to-end and API test automation, CI pipelines, flaky-test detection and failure analytics
+- **Application security**: OWASP API Top 10 testing, security regression suites, and SAST, secret scanning and DAST running in CI on every change
+
 ### 🔍 Featured
+
+**[API Security Test Suite](https://github.com/yonduudontaxx/api-security-test-suite)**<br>
+OWASP API Security Top 10 (2023) suite in Python/pytest, run against a target API in two modes: CI proves every seeded flaw is detected in `vulnerable` mode and every check passes in `hardened` mode. Plus an authenticated OWASP ZAP API scan, CodeQL and Semgrep. · [Live report](https://yonduudontaxx.github.io/api-security-test-suite/)
+
+**[Payments Quality Platform](https://github.com/yonduudontaxx/payments-quality-platform)**<br>
+Mock payment gateway and test harness: authorize/capture/refund state machine, HMAC-signed webhooks, idempotency and fault injection, with a 133-test security suite covering webhook tampering and replay, idempotency-key abuse, injection, input tampering and race conditions. · [Live report](https://yonduudontaxx.github.io/payments-quality-platform/)
 
 **[Test Failure Intelligence](https://github.com/yonduudontaxx/test-failure-intelligence)**<br>
 Self-hosted platform that ingests Jest, Vitest, Playwright and JUnit results to surface flaky tests, failure trends and environment stability. · [Live reports](https://yonduudontaxx.github.io/test-failure-intelligence/)
-
-**[Payments Quality Platform](https://github.com/yonduudontaxx/payments-quality-platform)**<br>
-Mock payment gateway and test harness: authorize/capture/refund state machine, idempotency, webhook delivery simulation and fault injection. · [Live report](https://yonduudontaxx.github.io/payments-quality-platform/)
 
 ### 🛠️ Also building
 
@@ -18,7 +26,10 @@ Mock payment gateway and test harness: authorize/capture/refund state machine, i
 
 ### 🧰 Stack
 
-`TypeScript` `Python` `Java` `Node.js` `HTML` `Playwright` `Jest` `Vitest` `Fastify` `PostgreSQL` `Docker` `GitHub Actions` `Elixir`
+**Testing** `Playwright` `pytest` `Jest` `Vitest` `httpx` `Allure`<br>
+**Security** `OWASP API Top 10` `OWASP ZAP` `CodeQL` `Semgrep` `gitleaks` `npm audit` `pip-audit` `JWT` `HMAC signing`<br>
+**Languages** `TypeScript` `Python` `Java` `SQL`<br>
+**Platform** `Node.js` `Fastify` `PostgreSQL` `Docker` `GitHub Actions` `Elixir`
 
 ### 📊 GitHub Activity
 

@@ -1,8 +1,8 @@
 ## Hi, I'm Joshua Maigeri 👋
 
-**Quality Engineer** · Tallinn, Estonia 🇪🇪
+**Quality & Application Security Engineer** · Tallinn, Estonia 🇪🇪
 
-I build test automation and quality tooling across web, API and backend systems: end-to-end suites, CI pipelines, flaky-test detection and failure analytics that make reliability visible and catch what breaks before production does.
+I test web, API and backend systems for both quality and security: end-to-end and API test suites, security checks built into CI, and failure analytics that catch what breaks — or what can be abused — before it reaches production. Most of my work is in fintech, payments and iGaming.
 
 ### 🔍 Featured
 
